@@ -1,0 +1,13 @@
+# Development
+# ----------------
+
+phpcs.xml
+phpstan.neon
+phpunit.xml
+psalm.xml
+
+# Package Managers
+# ----------------
+
+/node_modules
+/vendor

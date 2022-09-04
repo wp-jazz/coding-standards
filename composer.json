@@ -1,0 +1,22 @@
+{
+	"type": "phpcodesniffer-standard",
+	"name": "wp-jazz/coding-standards",
+	"description": "The WordPress coding standards applied to all WP Jazz projects.",
+	"license": "MIT",
+	"require": {
+		"php": ">=7.2",
+		"humanmade/coding-standards": "^1.1",
+		"humanmade/psalm-plugin-wordpress": "dev-master",
+		"szepeviktor/phpstan-wordpress": "^1.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-main": "1.x-dev"
+		}
+	}
+}
