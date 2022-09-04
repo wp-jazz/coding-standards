@@ -1,0 +1,18 @@
+{
+	"scripts": {
+		"lint": [
+			"@lint:phpcs",
+			"@lint:phpstan",
+			"@lint:psalm"
+		],
+		"lint:phpcs": [
+			"phpcs -p ."
+		],
+		"lint:phpstan": [
+			"phpstan analyze"
+		],
+		"lint:psalm": [
+			"psalm"
+		]
+	}
+}
