@@ -31,6 +31,15 @@
 		<exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen" />
 	</rule>
 
+	<rule ref="Squiz.Commenting.LongConditionClosingComment">
+		<!-- Allow space before closing statement -->
+		<exclude name="Squiz.Commenting.LongConditionClosingComment.SpacingBefore" />
+		<!-- Ensure `end` is preceded by a space -->
+		<properties>
+			<property name="commentFormat" value="// end %s" />
+		</properties>
+	</rule>	
+
 	<!-- Allow "=" and "/" in hook names -->
 	<rule ref="WordPress.NamingConventions.ValidHookName">
 		<properties>
