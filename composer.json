@@ -11,9 +11,9 @@
 	"require": {
 		"humanmade/coding-standards": "^1.1",
 		"humanmade/psalm-plugin-wordpress": "dev-master",
-		"phpstan/phpstan": "^1.8",
+		"phpstan/phpstan": "^1.10",
 		"szepeviktor/phpstan-wordpress": "^1.1",
-		"vimeo/psalm": "^4.27"
+		"vimeo/psalm": "^4.30"
 	},
 	"config": {
 		"allow-plugins": {
