@@ -3,6 +3,11 @@
 	"name": "wp-jazz/coding-standards",
 	"description": "The WordPress coding standards applied to all WP Jazz projects.",
 	"license": "MIT",
+	"keywords": [
+		"jazz",
+		"wordpress",
+		"wp"
+	],
 	"require": {
 		"humanmade/coding-standards": "^1.1",
 		"humanmade/psalm-plugin-wordpress": "dev-master",
